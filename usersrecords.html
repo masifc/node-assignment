@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" contextmenu="width=device-width,minimum-scale=1">
+            <!--the form awsome library is used to add icons to our form -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+            <!--include the stylesheet file-->
+            <link rel="stylesheet" href="/style1.css" type="text/css"> 
+    </head>
+    <body>
+        <div class="userManagement">
+           <h1>User Management</h1>
+            <form action="/auth" method="POST">
+                <div class="userList">
+                <h1>Registerd user</h1>
+                <table class="table" border="1">
+                    <tr>
+                        <th>User Name</th>
+                        <th>Email Id</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button name="view" value="OK" type="button" onclick="">View</button>
+                            <button name="edit" value="OK" type="button" onclick="">Edit</button>
+                            <button name="delete" value="OK" type="button" onclick="confirm">delete</button>
+                            
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            
+            </form>
+            <input type="submit" value="AddUser" id="2.2">
+            <input type="submit" value="ViewUser" id="2.3">
+            <input type="submit" value="EditUser" id="2.4">
+            <input type="submit" value="DeleteUser" id="2.5">
+            
+        </div>
+            
+        </div>
+    </body>
+</html>

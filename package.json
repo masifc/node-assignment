@@ -1,0 +1,25 @@
+{
+  "name": "cointabassignment",
+  "version": "1.0.0",
+  "description": "Assignment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammedasifc"
+  },
+  "author": "Muhammad Asif Chaudhary",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mssql": "^9.0.1",
+    "session": "^0.1.0"
+  }
+}
